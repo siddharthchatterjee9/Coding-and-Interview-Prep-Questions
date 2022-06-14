@@ -5,7 +5,7 @@ import java.lang.reflect.*;
 import java.util.*;
 
 //@Target(ElementType.METHOD);
-//@Retention(RetentionPolicy.RUNTIME);
+@Retention(RetentionPolicy.RUNTIME)
 @interface FamilyBudget {
     String userRole() default "GUEST";
     int budgetLimit() default 0;
@@ -34,7 +34,7 @@ public class Main {
             String role = in.next();
             int spend = in.nextInt();
             try {
-                Class annotatedClass = FamilyMember.class;
+                Class<FamilyMember> annotatedClass = FamilyMember.class;
                 Method[] methods = annotatedClass.getMethods();
                 for (Method method : methods) {
                     if (method.isAnnotationPresent(FamilyBudget.class)) {
