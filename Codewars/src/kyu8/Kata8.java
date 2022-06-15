@@ -4,7 +4,6 @@ import org.junit.Test;
 import static org.junit.Assert.assertArrayEquals;
 
 public class Kata8 {
-    public class ExampleTest {
         @Test
         public void one() {
             assertArrayEquals(new int[]{1,15,15}, CatDogHuman.humanYearsCatYearsDogYears(1));
@@ -17,8 +16,8 @@ public class Kata8 {
         public void ten() {
             assertArrayEquals(new int[]{10,56,64}, CatDogHuman.humanYearsCatYearsDogYears(10));
         }
-    }
 }
+
 
 class CatDogHuman {
     public static int[] humanYearsCatYearsDogYears(final int humanYears) {
