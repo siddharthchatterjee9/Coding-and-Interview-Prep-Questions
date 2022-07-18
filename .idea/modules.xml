@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Amazon/Amazon.iml" filepath="$PROJECT_DIR$/Amazon/Amazon.iml" />
       <module fileurl="file://$PROJECT_DIR$/Codewars/Codewars.iml" filepath="$PROJECT_DIR$/Codewars/Codewars.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Coding-and-Interview-Prep-Questions.iml" filepath="$PROJECT_DIR$/.idea/Coding-and-Interview-Prep-Questions.iml" />
       <module fileurl="file://$PROJECT_DIR$/Hackerrank/Hackerrank.iml" filepath="$PROJECT_DIR$/Hackerrank/Hackerrank.iml" />
