@@ -15,7 +15,7 @@ public class UniquePaths {
             for (int j = 1; j < dp[i].length; j++) {
                 dp[i][j] = dp[i-1][j] + dp[i][j-1];
             }
-         }
+        }
         return dp[m-1][n-1];
     }
 }
