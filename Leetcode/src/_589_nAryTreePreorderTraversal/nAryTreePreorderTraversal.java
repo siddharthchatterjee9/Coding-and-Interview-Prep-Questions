@@ -27,6 +27,7 @@ public class nAryTreePreorderTraversal {
         LinkedList<Node> stack = new LinkedList<>();
         LinkedList<Integer> output_arr = new LinkedList<>();
 
+
         if (root == null) {
             return output_arr;
         }
